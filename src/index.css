@@ -459,7 +459,7 @@ html {
   background-color: rgb(192, 192, 192);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 770px) {
 
   /* About Media Quary Starts */
   .AS2heading1 {
@@ -488,19 +488,25 @@ html {
     font-size: 10px;
   }
 
-  
+
   .AS4img {
     display: flex;
   }
-  
+
   .abouttitle {
     font-size: 20px;
   }
-  
+
   .about_cardtext {
     font-size: 10px;
   }
+
   /* About Media Quary Ends */
+
+  /* Home Media Quary Starts */
+  
+  /* Home Media Quary Ends */
+
 }
 
 @media only screen and (max-width: 1232px) {
@@ -708,6 +714,24 @@ img {
 
 /* Section 2 ends */
 
+/* Section 21 Starts */
+
+
+.homesection21-trending-category-heading h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2vw;
+}
+
+.homesection21-trending-category-heading hr {
+  color: rgb(0, 0, 0);
+  width: 22%;
+  margin: 0px auto;
+  border-width: 3px;
+  border-radius: 5px;
+}
+
+/* Section 21 ends */
 
 /* Section 3 Starts */
 #homesection3 {
@@ -814,6 +838,24 @@ img {
 
 /* Section 3 ends */
 
+/* Section 31 Starts */
+
+
+.homesection31-trending-category-heading h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2vw;
+}
+
+.homesection31-trending-category-heading hr {
+  color: rgb(0, 0, 0);
+  width: 22%;
+  margin: 0px auto;
+  border-width: 3px;
+  border-radius: 5px;
+}
+
+/* Section 31 ends */
 
 /* Section 4 Starts */
 #homesection4 {
@@ -865,6 +907,26 @@ img {
 }
 
 /* Section 4 ends */
+
+
+/* Section 41 Starts */
+
+
+.homesection41-trending-category-heading h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2vw;
+}
+
+.homesection41-trending-category-heading hr {
+  color: rgb(0, 0, 0);
+  width: 22%;
+  margin: 0px auto;
+  border-width: 3px;
+  border-radius: 5px;
+}
+
+/* Section 41 ends */
 
 
 /* Section 5 Start */
