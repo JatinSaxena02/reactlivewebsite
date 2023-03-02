@@ -101,23 +101,15 @@ const Home = () => {
                 </div>
             </section>
 
+            
+
             <section id="homesection4">
-                <div className="mt-5 HS4-div-img">
-                    <NavLink to="/service"><img src={homeimg8} alt="img" /></NavLink>
-                    <div className="HS4heading-button-div">
-                        <NavLink to="/" className="HS4imgbtn">For Her</NavLink>
-                    </div>
-                </div>
-            </section>
-
-
-            <section id="homesection41">
-                <div className="homesection41-trending-category-cards">
-                    <div className="homesection41-trending-category-heading text-center">
+                <div className="homesection4-trending-category-cards">
+                    <div className="homesection4-trending-category-heading text-center">
                         <h2>top accessories</h2>
                         <hr />
                     </div>
-                    <div className='container homesection41-container mb-5'>
+                    <div className='container homesection4-container mb-5'>
                         {TrendingCategoryDetails2.map((value) => {
                             return (
                                 <>
@@ -131,7 +123,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section id="homesection42">
+            <section id="homesection41">
                 <div className="col-12 mt-2 mb-5">
                     <div className="container-img gy-5"><NavLink to='/'><img src={TrendingCategoryImg2.homeimg37} alt="img"></img></NavLink></div>
                 </div>
