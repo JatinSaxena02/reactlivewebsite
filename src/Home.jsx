@@ -19,25 +19,24 @@ const Home = () => {
     return (
         <>
             <section id="homesection1">
-                <div className="mt-2 HS1-div-img1">
+                <div className="mt-2 HS1-div-img">
                     <NavLink to="/service"><img src={homeimg1} alt="img" /></NavLink>
-                    <p className="HS1heading1 HS1-heading1-hover">winter wear essential</p>
-                    <NavLink to="/" className="HS1imgbtn1">For Her</NavLink>
+                    <p className="HS1heading">winter wear essential</p>
+                    <NavLink to="/" className="HS1imgbtn">For Her</NavLink>
                 </div>
-                <div className="mt-2 HS1-div-img2">
+                <div className="mt-2 HS1-div-img">
                     <NavLink to="/service"><img src={homeimg2} alt="img" /></NavLink>
-                    <p className="HS1heading2 HS1-heading2-hover">winter wear essential</p>
-                    <NavLink to="/" className="HS1imgbtn2">For Him</NavLink>
+                    <p className="HS1heading">winter wear essential</p>
+                    <NavLink to="/" className="HS1imgbtn">For Him</NavLink>
                 </div>
             </section>
 
             <section id="homesection2">
-                <div className="mt-4 HS2-div-img1">
+                <div className="mt-4 HS2-div-img">
                     <NavLink to="/service"><img src={homeimg10} alt="img" /></NavLink>
-                    <p className="HS2heading1 HS2-heading1-hover">winter wear essential</p>
+                    <p className="HS2heading HS2-heading-hover">winter wear essential</p>
                     <div className="HS2buttondiv">
-                        <NavLink to="/" className="HS2imgbtn1">For Him</NavLink>
-                        <NavLink to="/" className="HS2imgbtn2">For Her</NavLink>
+                        <NavLink to="/" className="HS2imgbtn">shop now</NavLink>
                     </div>
                 </div>
             </section>
@@ -48,41 +47,35 @@ const Home = () => {
                         <h2>trending category</h2>
                         <hr />
                     </div>
-                    <div className='container-fluid mb-5'>
-                        <div className="row">
-                            <div className='col-10 mx-auto'>
-                                <div className="row gy-4">
-                                    {TrendingCategoryDetails.map((value) => {
-                                        return (
-                                            <>
-                                                <TrendingCategoryCard
-                                                    key={value.id}
-                                                    imgsrc={value.imgsrc}
-                                                />
-                                            </>
-                                        )
-                                    })}
-                                </div>
-                            </div>
-                        </div>
+                    <div className='container homesection21-container mb-5'>
+                        {TrendingCategoryDetails.map((value) => {
+                            return (
+                                <>
+                                    <TrendingCategoryCard
+                                        key={value.id}
+                                        imgsrc={value.imgsrc}
+                                    />
+                                </>
+                            )
+                        })}
                     </div>
                 </div>
             </section>
 
             <section id="homesection3">
-                <div className="mt-2 HS3-div-img1">
+                <div className="mt-2 HS3-div-img">
                     <NavLink to="/service"><img src={homeimg11} alt="img" /></NavLink>
                     <div className="HS3heading-button-div">
-                        <p className="HS3heading1 HS3-heading1-hover">winter wear essential</p>
-                        <NavLink to="/" className="HS3imgbtn1">For Her</NavLink>
+                        <p className="HS3heading HS3-heading-hover">winter wear essential</p>
+                        <NavLink to="/" className="HS3imgbtn">For Her</NavLink>
                     </div>
                 </div>
 
-                <div className="mt-2 HS3-div-img2">
+                <div className="mt-2 HS3-div-img">
                     <NavLink to="/service"><img src={homeimg12} alt="img" /></NavLink>
                     <div className="HS3heading-button-div">
-                        <p className="HS3heading2 HS3-heading2-hover">winter wear essential</p>
-                        <NavLink to="/" className="HS3imgbtn2">For Him</NavLink>
+                        <p className="HS3heading HS3-heading-hover">winter wear essential</p>
+                        <NavLink to="/" className="HS3imgbtn">For Him</NavLink>
                     </div>
                 </div>
             </section>
@@ -93,70 +86,59 @@ const Home = () => {
                         <h2>categories to bag</h2>
                         <hr />
                     </div>
-                    <div className='container-fluid mb-5'>
-                        <div className="row">
-                            <div className='col-10 mx-auto'>
-                                <div className="row gy-4">
-                                    {TrendingCategoryDetails1.map((value) => {
-                                        return (
-                                            <>
-                                                <TrendingCategoryCard1
-                                                    key={value.id}
-                                                    imgsrc={value.imgsrc}
-                                                />
-                                            </>
-                                        )
-                                    })}
-                                </div>
-                            </div>
-                        </div>
+                    <div className='container homesection31-container mb-5'>
+                        {TrendingCategoryDetails1.map((value) => {
+                            return (
+                                <>
+                                    <TrendingCategoryCard1
+                                        key={value.id}
+                                        imgsrc={value.imgsrc}
+                                    />
+                                </>
+                            )
+                        })}
                     </div>
                 </div>
             </section>
 
             <section id="homesection4">
-                <div className="mt-5 HS4-div-img1">
+                <div className="mt-5 HS4-div-img">
                     <NavLink to="/service"><img src={homeimg8} alt="img" /></NavLink>
                     <div className="HS4heading-button-div">
-                        <NavLink to="/" className="HS4imgbtn1">For Her</NavLink>
+                        <NavLink to="/" className="HS4imgbtn">For Her</NavLink>
                     </div>
                 </div>
             </section>
+
+
             <section id="homesection41">
                 <div className="homesection41-trending-category-cards">
                     <div className="homesection41-trending-category-heading text-center">
                         <h2>top accessories</h2>
                         <hr />
                     </div>
-                    <div className='container-fluid mb-5'>
-                        <div className="row">
-                            <div className='col-10 mx-auto'>
-                                <div className="row gy-4">
-                                    {TrendingCategoryDetails2.map((value) => {
-                                        return (
-                                            <>
-                                                <TrendingCategoryCard2
-                                                    key={value.id}
-                                                    imgsrc={value.imgsrc}
-                                                />
-                                            </>
-                                        )
-                                    })}
-                                </div>
-                            </div>
-                        </div>
+                    <div className='container homesection41-container mb-5'>
+                        {TrendingCategoryDetails2.map((value) => {
+                            return (
+                                <>
+                                    <TrendingCategoryCard2
+                                        key={value.id}
+                                        imgsrc={value.imgsrc}
+                                    />
+                                </>
+                            )
+                        })}
                     </div>
                 </div>
             </section>
             <section id="homesection42">
-            <div className="col-12 mt-2 mb-5">
-                <div className="container-img gy-5"><NavLink to='/'><img src={TrendingCategoryImg2.homeimg37} alt="img"></img></NavLink></div>
-            </div>
+                <div className="col-12 mt-2 mb-5">
+                    <div className="container-img gy-5"><NavLink to='/'><img src={TrendingCategoryImg2.homeimg37} alt="img"></img></NavLink></div>
+                </div>
             </section>
             <section id="homesection5">
                 <Footer />
             </section>
-
         </>
     )
 }
