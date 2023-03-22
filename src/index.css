@@ -803,7 +803,10 @@ img {
 
 /* Home Page Ends */
 
+/* Single Product Details Stying Starts*/
 
+
+/* Single Product Details Stying Ends*/
 
 
 /* MEDIA QUARY'S */
@@ -881,6 +884,109 @@ img {
   }
 
   /* SECTION 1 ENDS */
+
+  /* SECTION 2 Starts */
+
+  .HS2-div-img .HS2imgbtn {
+    font-size: 3vw;
+    width: 30%;
+    line-height: 25px;
+  }
+
+  #homesection2 {
+    margin-top: 10px;
+  }
+
+  #homesection21 {
+    margin-top: -10px;
+  }
+
+  .homesection21-trending-category-heading h2{
+    font-size: 1.5rem;
+  }
+
+  .homesection21-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: -10px;
+  }
+
+  .HS3heading-button-div {
+    display: block;
+  }
+
+  .HS3heading {
+    line-height: 1rem;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+  }
+
+  .HS3-div-img .HS3imgbtn {
+    margin-top: -5px;
+    line-height: 20px;
+    font-size: 10px;
+  }
+
+  #homesection31 {
+    margin-top: -15px;
+  }
+
+  .homesection31-trending-category-heading h2{
+    font-size: 1.5rem;
+  }
+
+  .homesection31-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: -10px;
+  }
+
+
+  #homesection4 {
+    margin-top: -15px;
+  }
+
+  .homesection4-trending-category-heading h2{
+    font-size: 1.5rem;
+  }
+
+  .homesection4-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: -10px;
+  }
+
+  #homesection41 {
+    margin-top: -25px;
+  }
+
+  #homesection41 img{
+    height: 70px;
+  }
+
+  #homesection5 img{
+    height: 50px;
+    width: 50px;
+  }
+  
+  .footer-category{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 50vh;
+    grid-row-gap:-12px ;
+    grid-gap: 15px;
+  }
+
+  .footer-category .footer-category-list p{
+    font-size: 13px;
+  }
+
+  .footer-ul-style li{
+    font-size: 12px;
+    line-height: 30px;
+  }
+
+  /* SECTION 2 ENDS */
 
 }
 

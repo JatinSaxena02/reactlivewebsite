@@ -11,7 +11,7 @@ const Menu = () => {
                     <div className="col-10 mx-auto">
                         <nav className="navbar navbar-expand-lg navbar-light">
                             <div className="container-fluid">
-                                <NavLink className="navbar-brand" to="/">Navbar</NavLink>
+                                <NavLink className="navbar-brand" to="/">JAAB</NavLink>
                                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                     <span className="navbar-toggler-icon"></span>
                                 </button>
@@ -27,6 +27,9 @@ const Menu = () => {
                                         </li>
                                         <li className="nav-item">
                                             <NavLink  to='/about' className="nav-link"> About Us</NavLink>
+                                        </li>
+                                        <li className="nav-item">
+                                            <NavLink  to='/product' className="nav-link"> Product</NavLink>
                                         </li>
                                     </ul>
                                     <form className="d-flex">

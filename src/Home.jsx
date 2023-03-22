@@ -5,7 +5,7 @@ import homeimg2 from "./Images/homeimg2.webp"
 import homeimg10 from "./Images/homeimg10.webp"
 import homeimg12 from "./Images/homeimg12.webp"
 import homeimg11 from "./Images/homeimg11.webp"
-import homeimg8 from "./Images/homeimg8.webp"
+// import homeimg8 from "./Images/homeimg8.webp"
 import Footer from "./Footer";
 import TrendingCategoryCard from "./TrendingCategoryCard";
 import TrendingCategoryDetails from "./TrendingCategoryDetails";
@@ -16,6 +16,8 @@ import TrendingCategoryDetails2 from "./TrendingCategoryDetails2";
 import TrendingCategoryImg2 from "./TrendingCategoryImg2";
 
 const Home = () => {
+
+
     return (
         <>
             <section id="homesection1">
@@ -101,7 +103,7 @@ const Home = () => {
                 </div>
             </section>
 
-            
+
 
             <section id="homesection4">
                 <div className="homesection4-trending-category-cards">

@@ -30,7 +30,7 @@ const Footer = () => {
                         <div className="footer-category-list">
                             <p>company</p>
                             <ul className="footer-ul-style">
-                                <li><NavLink to="/" className="nav-link">About Usr</NavLink></li>
+                                <li><NavLink to="/" className="nav-link">About Us</NavLink></li>
                                 <li><NavLink to="/" className="nav-link">We're Hiring</NavLink></li>
                                 <li><NavLink to="/" className="nav-link">Terms & Conditions</NavLink></li>
                                 <li><NavLink to="/" className="nav-link">Privacy Policy</NavLink></li>
@@ -40,19 +40,19 @@ const Footer = () => {
                         <div className="footer-category-list">
                             <p>connect with us</p>
                             <ul className="footer-ul-style">
-                                <li><FaInstagram />1M Followers</li>
-                                <li><FaTwitter />Follow on Twitter</li>
-                                <li><FaFacebook />4.7 People Like this</li>
-                                <li><FaLinkedin />Follow on Linkedin</li>
+                                <li><NavLink to="https://instagram.com/jatinsaxena2704" target={"_blank"} className="nav-link"><FaInstagram /> Follow on Instagram</NavLink></li>
+                                <li><NavLink to="https://twitter.com/jatinsaxena27" target={"_blank"} className="nav-link"><FaTwitter/> Follow on Twitter</NavLink></li>
+                                <li><NavLink to="https://www.facebook.com/jatinsaxena" target={"_blank"} className="nav-link"><FaFacebook/> follow on facebook</NavLink></li>
+                                <li><NavLink to="https://www.linkedin.com/in/jatin-saxena-23276a213" target={"_blank"} className="nav-link"><FaLinkedin/> Follow on Linkedin</NavLink></li>
                             </ul>
                         </div>
                         <div className="footer-category-list">
                             <p>keep up to date</p>
                             <ul className="footer-ul-style">
-                                <li>Contact Us</li>
-                                <li>Track Order</li>
-                                <li>Return Order</li>
-                                <li>Cancel Order</li>
+                                <li><NavLink to="/" className="nav-link">Contact Us</NavLink></li>
+                                <li><NavLink to="/" className="nav-link">Track Order</NavLink></li>
+                                <li><NavLink to="/" className="nav-link">Return Order</NavLink></li>
+                                <li><NavLink to="/" className="nav-link">Cancel Order</NavLink></li>
                             </ul>
                         </div>
                     </div>

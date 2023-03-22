@@ -445,6 +445,7 @@ import Service from './Service'
 import { Routes, Route } from "react-router-dom"
 import Menu from './Menu'
 import "./index.css"
+import SproductDetail from './Components/SproductDetail';
 const App = () => {
     return (
         <>
@@ -454,6 +455,7 @@ const App = () => {
                 <Route exact path='/about' element={<About />} />
                 <Route exact path='/service' element={<Service />} />
                 <Route exact path='/contact' element={<Contact />} />
+                <Route exact path='/product' element={<SproductDetail />} />
                 {/* <Route exact element={<Error />} /> */}
                 <Route path="*" element={<Error />} />
             </Routes>
